@@ -1,3 +1,104 @@
 /*
     You can add your own custom styles here.
 */
+/* Apply a custom font */
+body {
+    font-family: "Arial", sans-serif;
+}
+
+/* Change the text color */
+p {
+    color: #333; /* Dark gray */
+}
+
+/* Add a background color to a specific element */
+.highlighted-text {
+    background-color: #ffcc00; /* Yellow */
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-family: "Georgia", serif;
+    color: #0077b5; /* Dark blue */
+}
+
+/* Create a text shadow effect */
+.text-shadow {
+    text-shadow: 2px 2px 3px #333;
+}
+
+/* Apply custom styling to links */
+a {
+    text-decoration: none;
+    color: #0088cc; /* Light blue */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add a border to a blockquote */
+blockquote {
+    border-left: 2px solid #333;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+/* Increase the line height for better readability */
+p, h1, h2, h3 {
+    line-height: 1.5;
+}
+
+/* Add a subtle background to code blocks */
+code {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-family: "Courier New", monospace;
+}
+
+/* Create a drop cap effect for the first letter of a paragraph */
+p:first-of-type::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    margin: 0.05em 0.1em 0 0;
+}
+
+/* Apply a custom background to a specific section */
+.section-background {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    color: #fff; /* White text for better contrast */
+    padding: 20px;
+}
+
+/* Add a box shadow to a specific element */
+.box-shadow {
+    box-shadow: 4px 4px 6px #888;
+}
+
+/* Customize the appearance of a button */
+.button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style an unordered list */
+ul {
+    list-style-type: square;
+}
+
+/* Style an ordered list */
+ol {
+    list-style-type: decimal;
+}
